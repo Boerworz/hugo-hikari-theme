@@ -868,26 +868,21 @@ footer small {
 .posts li {
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #634ceb
+    border-bottom: 1px solid #eaeaea;
 }
 
-.posts li:first-child {
-    border-top: 1px solid #634ceb
+.posts li:last-child {
+    border-bottom: none;
 }
 
 .posts li .p-wrap {
     padding: 2.5em 2em;
-    background: #7b68ee;
+    border-left: 2px solid #7b68ee;
     transition: all .15s ease-in
 }
 
-.posts li .p-wrap:active {
-    background: #6f5aec
-}
-
 .posts li .p-wrap:hover {
-    background: #8776f0;
-    padding-left: 3em
+    border-left: 20px solid #7b68ee;
 }
 
 .posts li .p-wrap:hover::after {
@@ -925,7 +920,7 @@ footer small {
 }
 
 .posts li a {
-    color: #fff;
+    color: #303030;
     text-decoration: none
 }
 
