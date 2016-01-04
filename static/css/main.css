@@ -1045,7 +1045,8 @@ footer small {
     line-height: 1;
     border-radius: 100px;
     bottom: 2em;
-    color: #333
+    color: #333;
+    transition: all .15s ease-in;
 }
 
 @media (max-width:942px) {
@@ -1081,6 +1082,11 @@ footer small {
     border-color: #7b68ee
 }
 
+#prev:hover,
+#next:hover {
+    border-color: #7b68ee;
+}
+
 .nav-title {
     display: none
 }
@@ -1099,11 +1105,6 @@ footer small {
 .nav-title-next {
     margin-right: .5em;
     margin-left: .5em
-}
-
-#prev:hover .nav-title,
-#next:hover .nav-title {
-    display: inline
 }
 
 #prev,
@@ -1144,11 +1145,6 @@ footer small {
 .nav-title-next {
     margin-right: 10px;
     margin-left: 5px
-}
-
-#prev:hover .nav-title,
-#next:hover .nav-title {
-    display: inline
 }
 
 .pagination {
