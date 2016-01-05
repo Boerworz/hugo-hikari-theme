@@ -1156,6 +1156,13 @@ footer small {
     display: inline
 }
 
+@media (max-width:942px) {
+	#prev,
+	#next {
+		display: none
+	}
+}
+
 .pagination {
     overflow: hidden;
     margin-top: 40px;
